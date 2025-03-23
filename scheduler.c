@@ -80,7 +80,7 @@ void fifo_scheduler() {
 }
 
 int main() {
-  load_processes("test_cases/test1.txt");
+  load_processes("test_cases/test2.txt");
 
   clock_t start, end;
   double fifo_time, ai_time;
